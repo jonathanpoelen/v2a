@@ -1,0 +1,6 @@
+Convert a video file to an audio file
+
+```
+usage: v2a infile [outfile|directory] [ffmpeg options]...
+usage: v2a -i infile [ffmpeg options]...
+```
