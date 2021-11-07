@@ -17,7 +17,7 @@ fi
 
 input=$1
 if (( inplace == 0 )); then
-  if [[ -z $2 ]]; then
+  if [[ -z $2 ]] || [[ ${2[1]} = '-' ]]; then
     output=$input
     shift
   elif [[ -d $2 ]]; then
